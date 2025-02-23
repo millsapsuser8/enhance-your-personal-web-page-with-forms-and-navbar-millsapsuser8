@@ -5,6 +5,12 @@ body {
     padding: 0;
 }
 
+/* Background colors for different pages */
+.home-bg { background-color: #e3f2fd; } /* Light blue */
+.about-bg { background-color: #fbe9e7; } /* Light pink */
+.contact-bg { background-color: #e8f5e9; } /* Light green */
+.resume-bg { background-color: #ede7f6; } /* Light purple */
+
 /* Navigation bar styling */
 nav ul {
     list-style-type: none;
@@ -30,35 +36,21 @@ nav ul li a:hover {
     background-color: #111;
 }
 
-/* Main content */
-section {
-    margin: 20px;
-}
-
-h1, h2 {
-    color: #333;
-}
-
-/* Form styles */
-form label {
+/* Active page styling */
+nav ul li a.active {
+    background-color: #555;
     font-weight: bold;
 }
 
-form input, form textarea {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #ccc;
-}
+/* Home page */
+.home-header { background-color: #ffcc80; text-align: center; padding: 30px; }
+.home-intro { color: #d84315; }
 
-/* Header */
-header {
-    background-color: #f1f1f1;
-    text-align: center;
-    padding: 30px;
-}
+/* About page */
+.about-heading { color: #d32f2f; }
+.about-intro { color: #388e3c; }
+.about-hobby { color: #1976d2; }
 
-header h1 {
-    margin: 0;
-    font-size: 2em;
-}
+/* Contact form styling */
+.contact-label { color: #6a1b9a; }
+.contact-input, .contact-textarea { border: 2px solid #6a1b9a; }
